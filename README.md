@@ -3,3 +3,13 @@
 # Nic Caddeo: Github Repository for class CMSC 447
 - Project is in project folder.
 - Homework one is in [`homework-1 branch`](https://github.com/UMBC-CMSC437-SP2024/project-nic-caddeo/tree/homework-1).
+
+# PROJECT: FISHERMAN'S LOGBOOK
+## Prerequisites (`npm install` recommended):
+- `Node.js` and `npm`
+
+- `React` + Other dependencies...
+  - react-hot-toast
+  - react-router-dom
+
+- Web browser (Chrome, Safari, Firefrox, Edge)
