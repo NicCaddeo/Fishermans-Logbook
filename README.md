@@ -5,15 +5,11 @@
 - Homework one is in [`homework-1 branch`](https://github.com/UMBC-CMSC437-SP2024/project-nic-caddeo/tree/homework-1).
 
 # PROJECT: FISHERMAN'S LOGBOOK
-## Prerequisites (`npm install` recommended):
+## Prerequisite:
 - Node.js
 - npm
 - Tailwind CSS
-
-- `React` + Other dependencies...
-  - react-hot-toast
-  - react-router-dom
-
+- React
 - Web browser (Chrome, Safari, Firefrox, Edge)
 
 ## Getting Started with Create React App
