@@ -1,7 +1,8 @@
-import { Fish } from "../types";
-import { getData } from "../utils/storageData";
-// --------------------------------------------------------------
+import { Fish } from "../types"; // Import the Fish type from the types file
+import { getData } from "../utils/storageData"; // Import the getData function from the storageData file
 
+// Define an array of initial fish data
+// This looks like JSON format, but is TypeScript.
 export const INITIAL_FISH_DATA: Fish[] = [
 	{
 		name: "Sockeye Salmon",
@@ -165,6 +166,5 @@ export const INITIAL_FISH_DATA: Fish[] = [
 	},
 ];
 
-// ----------------------------------------------------------------
-
+// Define a function to get the fish data, either from storage or using the initial data
 export const GET_FISH_DATA = () => (getData() as Fish[]) || INITIAL_FISH_DATA;
