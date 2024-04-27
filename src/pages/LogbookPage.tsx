@@ -13,8 +13,8 @@ import Stars from "../components/Stars";
 import { GET_FISH_DATA } from "../data";
 // type
 import { Fish, RarityIndex } from "../types";
-// --------------------------------------------------------------
 
+// Styles for the components using Tailwind CSS classes
 const Styles = {
 	container: "relative bg-light-3 h-screen overflow-hidden",
 	bottomWaves: "absolute bottom-0 left-0 w-full h-[45%]",
@@ -43,12 +43,17 @@ const Styles = {
 		"w-fit mx-auto flex items-center justify-center p-3 rounded-lg bg-dark-3 text-white",
 };
 
-// --------------------------------------------------------------
+// LogbookPage component for displaying fish information
 const LogbookPage = () => {
+	// Navigation / Location Hooks
 	const navigate = useNavigate();
 	const { state } = useLocation();
 	const fishData = GET_FISH_DATA();
 
+	// Determine if the logbook is in 'secret mode'
+	// 'secret mode' is the easter egg function of this app
+	// to showcase all fish available, but without displaying
+	// full information on each fish
 	const isSecret = !!state?.isSecret;
 	const defaultIndex = Math.max(
 		!!state?.selectedFish
@@ -57,7 +62,7 @@ const LogbookPage = () => {
 		0
 	);
 
-	//
+	// State for triggering animation
 	const [triggerAnimation, setTriggerAnimation] = useState(false);
 	useEffect(() => {
 		setTriggerAnimation(true);
@@ -68,12 +73,13 @@ const LogbookPage = () => {
 	const isFirstIndex = currentIndex === 0;
 	const isLastIndex = currentIndex === fishData?.length - 1;
 
+	// Display the previous or next fish
 	const displayNextFish = () =>
 		!isLastIndex && setCurrentIndex(currentIndex + 1);
 	const displayPrevFish = () =>
 		!isFirstIndex && setCurrentIndex(currentIndex - 1);
 
-	//
+	// Fish data for the current index
 	const data: Fish = fishData?.[currentIndex];
 	const imageUrl =
 		!isSecret && data?.caught === 0
@@ -86,6 +92,7 @@ const LogbookPage = () => {
 	const description = data?.caught === 0 ? "???" : data.description;
 	const numberCaught = data.caught;
 
+	// Name of the previous and next fish for navigation
 	const previousFish = isFirstIndex
 		? ""
 		: fishData?.[currentIndex - 1]?.caught === 0
@@ -98,6 +105,7 @@ const LogbookPage = () => {
 		? "???"
 		: fishData?.[currentIndex + 1]?.name;
 
+	// JSX Render
 	return (
 		<section className={Styles.container}>
 			<img src={waves_bottom} alt="top_waves" className={Styles.bottomWaves} />

@@ -19,7 +19,8 @@ const Styles = {
 	bgImg: "absolute top-0 left-0 w-full h-[120%] opacity-50",
 };
 
-// --------------------------------------------------------------
+// Badge class (the rarity rating of a fish 
+// which sits at the bottom middle of a photo)
 const Badge = ({ rarity, className }: Props) => {
 	return (
 		<div

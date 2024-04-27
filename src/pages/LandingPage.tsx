@@ -9,24 +9,25 @@ import Heading from "../components/Heading";
 import Button from "../components/Button";
 // constants
 import { LINKS } from "../constants";
-// --------------------------------------------------------------
 
+// Tailwind CSS Styles
 const Styles = {
 	container:
-		"relative bg-dark-2 bg-cover bg-top bg-no-repeat min-h-screen flex p-16 overflow-hidden",
-	topWaves: "absolute top-0 left-0 w-full h-32",
-	content: "w-full mt-auto flex items-center justify-between flex-wrap gap-12",
-	heading: "h-40 duration-300 ease-in-out",
+		"relative bg-dark-2 bg-cover bg-top bg-no-repeat min-h-screen flex p-16 overflow-hidden", // Container styles for landing page
+	topWaves: "absolute top-0 left-0 w-full h-32", // Top waves styles
+	content: "w-full mt-auto flex items-center justify-between flex-wrap gap-12", // Content styles
+	heading: "h-40 duration-300 ease-in-out", // Heading styles
 	btnContainer:
-		"w-full sm:w-fit flex flex-col gap-4 min-w-60 duration-300 ease-in-out",
-	btn: "border border-white max-md:!text-xl",
+		"w-full sm:w-fit flex flex-col gap-4 min-w-60 duration-300 ease-in-out", // Button container styles
+	btn: "border border-white max-md:!text-xl", // Button styles
 };
 
-// --------------------------------------------------------------
+// Define LandingPage component
 const LandingPage = () => {
 	const navigate = useNavigate();
 	const [triggerAnimation, setTriggerAnimation] = useState(false);
 
+	// Trigger animation on component mount
 	useEffect(() => {
 		setTriggerAnimation(true);
 	}, []);

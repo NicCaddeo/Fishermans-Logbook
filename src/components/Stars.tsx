@@ -4,13 +4,15 @@ import { twMerge } from "tailwind-merge";
 import Icon from "./icons";
 // types
 import { ActiveStars } from "../types";
-// --------------------------------------------------------------
+
+// Define Props type for Stars component
 type Props = {
 	activeStars: ActiveStars;
 	className?: string;
 	starClassName?: string;
 };
 
+// Define styles using Tailwind CSS classes
 const Styles = {
 	container: "flex items-center justify-center gap-4",
 	star: "!h-6 duration-500 ease-in-out",

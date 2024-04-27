@@ -22,6 +22,7 @@ type Props = {
 	onContinue: () => void;
 };
 
+// Tailwind CSS Classes
 const Styles = {
 	container:
 		"bg-light-1 bg-cover bg-center bg-no-repeat rounded-xl z-50 p-5 flex flex-col md:flex-row gap-4",
@@ -39,7 +40,7 @@ const Styles = {
 	btn: "w-48 text-xl p-1.5",
 };
 
-// --------------------------------------------------------------
+// Catching a fish Details component
 const CatchDetails = ({
 	className,
 	name,
@@ -49,10 +50,10 @@ const CatchDetails = ({
 	isSecret = false,
 	onContinue,
 }: Props) => {
-	const navigate = useNavigate();
-	const imageUrl = isSecret ? secret_fish : `/fish-images/${image}`;
-	const headingText = isSecret ? "Secret Unlocked!" : "Nice Catch!";
-	const descriptionText = isSecret ? SECRET_ACCESS_TEXT : description;
+	const navigate = useNavigate(); // Initialize navigate function for navigation
+	const imageUrl = isSecret ? secret_fish : `/fish-images/${image}`; // Determine image URL based on isSecret prop
+	const headingText = isSecret ? "Secret Unlocked!" : "Nice Catch!"; // Set heading text based on isSecret prop
+	const descriptionText = isSecret ? SECRET_ACCESS_TEXT : description; // Set description text based on isSecret prop
 
 	return (
 		<div
