@@ -160,7 +160,7 @@ const GamePage = () => {
 			<img src={waves_top} alt="top_waves" className={Styles.topWaves} />
 			<img src={waves_bottom} alt="top_waves" className={Styles.bottomWaves} />
 
-			// Back button
+			{/* Back button */}
 			<div className={Styles.content}>
 				<Button
 					text="Back"
