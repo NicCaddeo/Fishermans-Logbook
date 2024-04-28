@@ -21,7 +21,7 @@ export const SECRET_ACCESS_TEXT =
 	"You gained special access to view the fish in the logbook early, but only what they look like... You have to catch them first!";
 
 // Define the game speed constant, specifying the arrow speed (1 to 5, with 5 being the max speed)
-export const GAME_SPEED: GameSpeed = 4;
+export const GAME_SPEED: GameSpeed = 5;
 
 // Define a constant for the key used in local storage to store fish data
 export const LOCAL_STORAGE_KEY = "FISH_DATA";
