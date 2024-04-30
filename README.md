@@ -1,11 +1,12 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/QB74hIJx)
+![image](https://github.com/NicCaddeo/Fishermans-Logbook/assets/112668183/bf6a9b0e-0832-4501-bb97-fd2fa5f3d666)
+---
+Welcome to the fisherman's logbook, a sample webapp project showcasing the wonderful and diverse world of marine life which inhabits our planet! This project was built with a use-case in mind that can be focused towards raising awareness of our ocean and what precious life it holds.
 
-# Nic Caddeo: Github Repository for class CMSC 447
-- Project is in project folder.
-- Homework one is in [`homework-1 branch`](https://github.com/UMBC-CMSC437-SP2024/project-nic-caddeo/tree/homework-1).
+Help our oceans!
+- [Donate to Ocean Concervancy](https://donate.oceanconservancy.org/page/137392/donate/1?promo_name=Donate_Button&promo_position=Content&promo_creative=Evergreen&_ga=2.26903613.164743282.1714493675-2086304579.1714493675)
+- [Donate to Oceana](https://act.oceana.org/page/141584/donate/1?ea.tracking.id=homepage-header&utm_campaign=general&utm_source=header&utm_medium=website&transaction.donationAmt=&op=DONATE)
 
-# PROJECT: FISHERMAN'S LOGBOOK
-## Prerequisite:
+### Prerequisites:
 - Node.js
 - npm
 - Tailwind CSS
