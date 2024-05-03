@@ -1,6 +1,6 @@
 ![image](https://github.com/NicCaddeo/Fishermans-Logbook/assets/112668183/bf6a9b0e-0832-4501-bb97-fd2fa5f3d666)
 ---
-Welcome to the fisherman's logbook, a sample webapp project showcasing the wonderful and diverse world of marine life which inhabits our planet! This project was built with a focuse towards raising awareness of our ocean and what precious life it holds.
+Welcome to the fisherman's logbook, a sample webapp project showcasing the wonderful and diverse world of marine life which inhabits our planet! This project was built with a focus towards raising awareness of our ocean and what precious life it holds.
 
 Help our oceans!
 - [Donate to Ocean Concervancy](https://donate.oceanconservancy.org/page/137392/donate/1?promo_name=Donate_Button&promo_position=Content&promo_creative=Evergreen&_ga=2.26903613.164743282.1714493675-2086304579.1714493675)
