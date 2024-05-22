@@ -6,7 +6,10 @@ Help our oceans!
 - [Donate to Ocean Concervancy](https://donate.oceanconservancy.org/page/137392/donate/1?promo_name=Donate_Button&promo_position=Content&promo_creative=Evergreen&_ga=2.26903613.164743282.1714493675-2086304579.1714493675)
 - [Donate to Oceana](https://act.oceana.org/page/141584/donate/1?ea.tracking.id=homepage-header&utm_campaign=general&utm_source=header&utm_medium=website&transaction.donationAmt=&op=DONATE)
 
-### Prerequisites:
+## Frameworks and Tools
+![Group 3](https://github.com/NicCaddeo/Fishermans-Logbook/assets/112668183/a8c49d42-59f4-452d-a586-85103b5d9503)
+
+### Prerequisites you may need to download:
 - Node.js
 - npm
 - Tailwind CSS
