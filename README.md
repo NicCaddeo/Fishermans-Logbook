@@ -2,7 +2,9 @@
 ---
 Welcome to the fisherman's logbook, a sample webapp project showcasing the wonderful and diverse world of marine life which inhabits our planet! This project was built with a focus towards raising awareness of our ocean and what precious life it holds.
 
-Help our oceans!
+### [🌊🎣 View this Application on a Vercel Domain 🐠🌊](https://fishermans-logbook.vercel.app/)
+
+### Help our oceans!
 - [Donate to Ocean Concervancy](https://donate.oceanconservancy.org/page/137392/donate/1?promo_name=Donate_Button&promo_position=Content&promo_creative=Evergreen&_ga=2.26903613.164743282.1714493675-2086304579.1714493675)
 - [Donate to Oceana](https://act.oceana.org/page/141584/donate/1?ea.tracking.id=homepage-header&utm_campaign=general&utm_source=header&utm_medium=website&transaction.donationAmt=&op=DONATE)
 
